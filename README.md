@@ -2,20 +2,22 @@
 🛠️ Getting Started
 
 1)Clone this project using the GitHub link:
-(*)git clone <clone_url>
+
+-> git clone <clone_url>
 
 2)Install all dependencies:
-(*)cd <project_folder>
 
-(*)npm install
+-> cd <project_folder>
+
+-> npm install
 
 3)create a .env file in the root directory and add required environment variables, for example:
 (*)REACT_APP_API_BASE_URL=<url>
 
-(*)PORT=<port_number>
+-> PORT=<port_number>
 
 4)Run the project:
-(*)npm run start
+-> npm run start
 
 ## 📌 Project Description
 1)On launch, the dashboard displays existing projects on a map.
