@@ -1,0 +1,43 @@
+.card_container {
+    background-color: #1c2a36;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #5b738f;
+    /* padding-top:5px; */
+    /* padding-bottom:20px; */
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.inner_container {
+    background-color: #243545;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.normal_btn {
+    border: 1px solid #36f518 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: #3b8230 !important;
+}
+
+.due_btn {
+    border: 1px solid #616161 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: #3d3d3d !important;
+}
+.progress_btn{
+    border: 1px solid #f5bb40 !important;
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: #f5aa0a !important;
+}

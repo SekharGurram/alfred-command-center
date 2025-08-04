@@ -1,0 +1,134 @@
+.main_container {
+    background-color: #1c1f24 !important;
+    color: white !important;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.map_item_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.map_para_item {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.map_item {
+    margin: 5px;
+    width: 100%;
+}
+
+.fake_button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    transition: background-color 0.2s ease;
+}
+
+.fakeButton:hover {
+    background-color: black;
+}
+
+.map_content_div_item {
+    background-color: #2c3036;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.gap_resolve {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.communication_hub_container {
+    width: 100%;
+}
+
+.hub_time_container {
+    margin: 5px;
+}
+
+.high_btn {
+    border: 1px solid #a13532 !important;
+    border-radius: 30px !important;
+    color: #a13532 !important;
+    background-color: #9c7878 !important;
+}
+
+.ai_btn {
+    border: 1px solid #1747c2 !important;
+    border-radius: 30px !important;
+    color: #113dad !important;
+    background-color: #5a74b8 !important;
+}
+
+.risk_btn {
+    border: 1px solid #a13532 !important;
+    color: #a13532 !important;
+    background-color: #171616 !important;
+}
+
+.clarify_btn {
+    border: 1px solid #666464 !important;
+    color: white !important;
+    background-color: #666464 !important;
+}
+
+.update_btn {
+    border: 1px solid #205e56 !important;
+    color: white !important;
+    background-color: #205e56 !important;
+}
+
+.section_heading {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #a4a6a4;
+}
+
+/* ✅ Responsive styles */
+@media screen and (max-width: 768px) {
+    .main_container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .map_item_container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .map_para_item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .map_item {
+        width: 100%;
+    }
+
+    .map_content_div_item {
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .section_heading {
+        font-size: 1rem;
+    }
+}
