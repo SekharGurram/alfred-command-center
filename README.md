@@ -4,7 +4,7 @@
 (*)git clone <clone_url>
 
 2)Install all dependencies:
-(*)cd <project-folder>
+(*)cd <project_folder>
 (*)npm install
 
 3)create a .env file in the root directory and add required environment variables, for example:
