@@ -12,7 +12,8 @@
 -> npm install
 
 3)create a .env file in the root directory and add required environment variables, for example:
-(*)REACT_APP_API_BASE_URL=<url>
+
+-> REACT_APP_API_BASE_URL=<url>
 
 -> PORT=<port_number>
 
