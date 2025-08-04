@@ -1,5 +1,6 @@
 # Alfred-command-center
 🛠️ Getting Started
+
 1)Clone this project using the GitHub link:
 (*)git clone <clone_url>
 
